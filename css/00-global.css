@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Heebo', sans-serif;;
+}
+
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+  color: #333333;
+  scroll-behavior: smooth;
+}
+
+main {
+  margin-top: 86px;
+  min-height: -webkit-calc(100vh - 86px);
+  min-height: -moz-calc(100vh - 86px);
+  min-height: calc(100vh - 86px);
+}
+
+input {
+  background-color: #f5f5f5;
+}
+
+/* ESTILOS INPUTS FORMULARIOS */
+
+.form-control {
+  background-size: 20px 18px;
+  height: 48px;
+  border-radius: 0.5rem;
+  border: 1px solid #dddddd;
+  background-color: #f5f5f5;
+}
+
+.form-select {
+  background-size: 20px 18px;
+  height: 48px;
+  border-radius: 0.5rem;
+  border: 1px solid #dddddd;
+}
+
+.form-control-area {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dddddd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 2px solid #3fb8e6;
+  background-color: #f5f5f5;
+}
+
+.form-check .form-check-input {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 10px;
+}
+
+.form-check-label {
+  padding-top: 6px;
+}
+
+.border-icon {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+/* BUTTONS */
+
+.btn-outline-info:hover{
+  color: #fff !important;
+  background-color: #3fb8e6 !important;
+}
