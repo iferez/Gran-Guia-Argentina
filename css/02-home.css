@@ -1,16 +1,105 @@
-#carousel .carousel img{
+.carousel img {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.carousel .carousel-caption {
+  padding: 0.6rem;
+  background-color: #03030370;
+  color: #ffff;
+}
+
+.carousel .carousel-caption h4 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 100%;
+}
+
+/* ACORDIONES DE CATEGORIAS */
+
+.accordion-button {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #3fb8e6;
+  color: #ffff;
+}
+
+.accordion-item {
+  background-color: #f7f7f7;
+  transition: 0.2s ease;
+}
+
+.accordion-item:hover {
+  background-color: #f7f7f775;
+  transition: 0.2s ease;
+}
+
+.accordion-item li {
+  padding: 0.5rem 1rem;
+  list-style: none;
+  border-bottom: 1px solid #d0d0d070;
+}
+
+.accordion-item li a {
+  color: #030303;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.accordion-item li a:hover {
+  color: #3fb8e6;
+  text-decoration: underline;
+  transition: 0.2s ease;
+}
+
+/*
+.accordion-button:not(.collapsed) {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.img-comercio{
+    background-image: url(http://testing.granguiaargentina.com.ar/BackOffice/categorias/Comercios.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}*/
+
+@media (min-width: 768px) {
+  .accordion-button {
+    height: 84px;
+  }
+  .carousel img {
     width: 100%;
     height: 500px;
     margin: auto;
     text-align: center;
-}
+  }
 
-#carousel .carousel .carousel-caption{
-    background-color: #030303a1;
-    color: #ffff;
-}
+  .carousel .carousel-caption {
+    padding: 1.2rem;
+    background-color: #03030380;
+  }
 
-#carousel .carousel .carousel-caption h4{
+  .carousel .carousel-caption h4 {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
     font-weight: bold;
+  }
+
+  .carousel .carousel-caption p {
+    margin: 0;
+  }
 }
 
+@media (min-width: 992px) {
+}
