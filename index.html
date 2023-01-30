@@ -51,6 +51,9 @@
                         <a href="#">Lorem, ipsum.</a>
                         <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                         <a href="#">Lorem ipsum dolor.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                        <a href="#">Lorem, ipsum.</a>
                     </article>
                 </div>
             </div>
@@ -372,9 +375,7 @@
     <script>
         const desplegar = document.getElementById("desplegar");
         const buscador = document.getElementById('buscador');
-
         buscador.addEventListener('keyup', (e) => {
-            console.log(buscador.value.length + 1)
             if (buscador.value.length >= 3) {
                 desplegar.classList.remove("d-none");
             } else if (buscador.value.length < 3) {
