@@ -1,0 +1,109 @@
+.anuncios-lateral img{
+    margin: 0.5rem 0rem;
+    width: 49%;
+}
+
+/* BANNER */
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    max-height: 200px;
+    width: 100%;
+}
+
+.banner h2{
+    position: absolute;
+    background-color: #03030380;
+    color: #ffff;
+    padding: 1rem 4rem;
+    
+}
+
+/* ----- */
+.categorias-style-info h1{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.categorias-style-info span{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.categorias-style-info{
+    color: #ffffff;
+    background-color: #144272;
+    padding: 2rem;
+}
+
+.categorias-style{
+    background-color: #f5f5f5;
+    padding: 2rem;
+    width: 100%;
+    margin: auto;
+}
+
+.categorias-style p{
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.categorias-style h5{
+    margin: 0.8rem 0;
+    color: #3fb8e6;
+}
+
+.categorias-style ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias-style li {
+    font-size: 0.9rem;
+    padding-bottom: 0.1rem;
+}
+
+.categorias-style li a{
+    color: #030303;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.categorias-style li a:hover{
+    color: #3fb8e6;
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+
+/* PRUEBAS 2 CATEGORIAS */
+
+.accordion-item  ul{
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+.accordion-item  li {
+    font-size: 0.9rem;
+    padding-bottom: 0.2rem;
+}
+
+.accordion-item  li a{
+    color: #030303;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+@media (min-width: 768px) {
+    .anuncios-lateral img{
+        margin: 0.5rem 0rem;
+        width: 100%;
+    }
+  }
+  
