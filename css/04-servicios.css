@@ -1,0 +1,10 @@
+.servicios img{
+    width: 100%;
+    max-height: 60px;
+    border-bottom: 1px solid #03030320;
+}
+
+@media (min-width: 768px) {
+
+  }
+  
