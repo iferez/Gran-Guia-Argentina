@@ -1,10 +1,88 @@
-.servicios img{
-    width: 100%;
-    max-height: 60px;
-    border-bottom: 1px solid #03030320;
+.servicios img {
+  width: 100%;
+  max-height: 60px;
+  border-bottom: 1px solid #03030320;
+}
+
+.servicios .card i {
+  font-size: 1rem;
+}
+
+.servicios .card span {
+  font-weight: 600;
+}
+
+
+/* CARD TAGS */
+.servicios .card-tags {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.servicios .card-tags a {
+  text-decoration: none;
+  color: #707070;
+  transition: 0.3s ease;
+}
+
+.servicios .card-tags a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #030303;
+  transition: 0.3s ease;
+}
+
+/* CARD BODY */
+.servicios .card-body {
+  padding: 0.5rem 1rem;
+}
+
+.card-body a{
+  text-decoration: none;
+  color: #030303;
+  transition: 0.3s ease;
+}
+
+.card-body a:hover{
+  color: #3fb8e6;
+  transition: 0.3s ease;
+}
+
+/* CARD INFO */
+.servicios .card-info {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  color: #707070;
+}
+
+.servicios .card-info a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #707070;
+  transition: 0.3s ease;
+}
+
+.servicios .card-info a:hover {
+  text-decoration: underline;
+  color: #030303;
+  transition: 0.3s ease;
+}
+
+/* CARD FOOTER */
+.servicios .card-footer a{
+  color: #707070;
+  transition: 0.3s ease;
+}
+
+.servicios .card-footer a:hover{
+  color: #38bbe5;
+  transition: 0.3s ease;
+}
+
+/* PAGINACION */
+.page-item a{
+  color: #707070;
 }
 
 @media (min-width: 768px) {
-
-  }
-  
+}
