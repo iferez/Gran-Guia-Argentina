@@ -1,0 +1,33 @@
+.datos-ficha {
+    font-size: 1.2rem;
+}
+
+.datos-ficha a {
+    text-decoration: none;
+    color: #030303;
+    transition: 0.3s ease;
+}
+
+.datos-ficha a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #38bbe5;
+    transition: 0.3s ease;
+}
+
+.datos-ficha i {
+    font-size:  1.5rem;
+    transition: 0.3s ease;
+    color: #030303;
+}
+
+.datos-ficha i:hover {
+    transition: 0.3s ease;
+    color: #38bbe5;
+}
+
+.datos-ficha h4 {
+    color: #38bbe5;
+}
+
+@media (min-width: 768px) {}

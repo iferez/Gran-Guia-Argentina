@@ -198,7 +198,7 @@
                                         </div>
                                         <div class="card-body">
                                             <a href="#">
-                                                <h5 class="card-title"><span class="texto-celeste">2.</span>LIBRERIA EL
+                                                <h5 class="card-title"><span class="texto-celeste">2.</span> LIBRERIA EL
                                                     GAUCHO
                                                 </h5>
                                                 <p class="card-text">Libros, diccionarios, novelas y cuentos.</p>
@@ -398,6 +398,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+        
+    <script>
+        const desplegar = document.getElementById("desplegar");
+        const buscador = document.getElementById('buscador');
+
+        buscador.addEventListener('keyup', (e) => {
+            console.log(buscador.value.length + 1)
+            if (buscador.value.length >= 3) {
+                desplegar.classList.remove("d-none");
+            } else if (buscador.value.length < 3) {
+                desplegar.classList.add("d-none");
+            }
+        });
+    </script>
 </body>
 
 </html>
