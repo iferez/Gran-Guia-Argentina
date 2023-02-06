@@ -1,0 +1,51 @@
+.novedades img {
+  width: 100%;
+  max-height: 150px;
+}
+
+.novedades .card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.novedades .card-footer a {
+    text-decoration: none;
+    color: #030303;
+    transition: 0.3s ease;
+}
+
+.novedades .card-footer a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #38bbe5;
+    transition: 0.3s ease;
+}
+
+/* REVISTAS */
+.enlaces-noticias h4{
+  color: #38bbe5;
+}
+
+.enlaces-noticias a{
+  display: block;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #030303;
+  transition: 0.3s ease;
+}
+
+
+.enlaces-noticias a:hover{
+  font-weight: 600;
+  text-decoration: underline;
+  color: #38bbe5;
+  transition: 0.3s ease;
+}
+
+
+
+
+@media (min-width: 768px) {
+}
